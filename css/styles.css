@@ -1,85 +1,8 @@
+
 body {
-  background-image: url(../images/flowers.gif);
-  background-repeat: repeat;
+  background-color: #e3dcf2;
 }
-
-.center-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.column-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* shout out to Vic Fieger for this cool font!
-i downloaded it on https://www.fontsquirrel.com/fonts/Heavy-Data
-email him at vic@vicfieger.com */
 
 h1 {
-  font-family: 'heavy_dataregular';
-  font-size: 64px;
-}
-
-img {
-  width: 420px;
-  border: 20px solid #de6be5;
-  border-radius: 220px;
-  animation-name: colorshift;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
-
-p {
-  font-family: 'heavy_dataregular';
-  font-weight: bold;
-  font-size: 28px;
-  text-align: center;
-  max-width: 560px;
-}
-
-a {
-  color: #de6be5;
-  text-decoration: none;
-}
-
-.sunglasses {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 180px;
-  transform: translate(-99px,-100px);
-}
-
-.sunglasses:hover {
-  width: 240px;
-  transform: translate(-129px,-160px);
-  transition-property: width transform;
-  transition-duration: 1s;
-}
-
-.lense {
-  fill: #000;
-  animation-name: colorshift;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes colorshift {
-  0% {
-    fill: #000000;
-    border-color: #000000;
-  }
-  50% {
-    fill: #de6be5;
-    border-color: #de6be5;
-  }
-  100% {
-    fill: #000000;
-    border-color: #000000;
-  }
+  font-family: sans-serif;
 }
