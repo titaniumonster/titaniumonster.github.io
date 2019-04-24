@@ -4,5 +4,25 @@ body {
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: 'reeyregular';
+  font-size: 64px;
+  color: white
+}
+
+p {
+  color: red;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: tanslate(-123px, -38px);
 }
