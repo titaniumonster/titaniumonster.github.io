@@ -1,6 +1,7 @@
 
 body {
   background-color: #7969af;
+  /* Red Panda Photo by Julien Mussard on Unsplash */
   background-image: url(../images/redpanda.png);
   background-size: 10%;
   background-position: center;
@@ -23,31 +24,28 @@ img {
   width: 100%;
 }
 
-a {
-  display: flex;
+.pic {
+  margin-left: 30%;
+  margin-right: 30%;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-p {
-  color: white;
-  position: flex;
-  justify-content: flex-end;
   align-items: baseline;
+  height: auto;
+  order: 3;
 }
 
+.tri {
+  max-width: 450px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  height: auto;
+  order: 2;
+}
 
 .name {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
-}
-
-.mail {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: tanslate(-123px, -38px);
+  height: 20vh;
 }
